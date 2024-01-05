@@ -14,23 +14,24 @@ public class JwtUtil {
     private static final String SECRET = "superDuperSecretePhrase";
     private static final String ISSUER = "pichinchaAut1";
 
+    private static final Algorithm ALGORITHM = Algorithm.HMAC512(SECRET);
+    private static final JWTVerifier VERIFIER = JWT.require(ALGORITHM)
+            .withIssuer(ISSUER)
+            .build();
+
+
     private JwtUtil(){}
 
     public static String getToken(String user) throws JWTCreationException{
-        Algorithm algorithm = Algorithm.HMAC512(SECRET);
         return JWT.create()
                 .withIssuer(ISSUER)
                 .withClaim("UID", user)
-                .sign(algorithm);
+                .sign(ALGORITHM);
     }
 
     public static boolean isValid(String token){
         try {
-            Algorithm algorithm = Algorithm.HMAC512(SECRET);
-            JWTVerifier verifier = JWT.require(algorithm)
-                    .withIssuer(ISSUER)
-                    .build();
-            verifier.verify(token);
+            VERIFIER.verify(token);
             return true;
         }catch (JWTVerificationException e){
             log.error("Jwt verification error: {}", e);
