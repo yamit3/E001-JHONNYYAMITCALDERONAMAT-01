@@ -24,7 +24,6 @@ public class SecurityConfiguration {
     private final CustomAuthenticationEntryPoint unauthorizedHandler;
     private final UserDetailsService userService;
 
-
     @Bean
     public AuthenticationFilter authenticationJwtTokenFilter() {
         return new AuthenticationFilter();
@@ -33,7 +32,6 @@ public class SecurityConfiguration {
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
-
         authProvider.setUserDetailsService(userService);
         authProvider.setPasswordEncoder(passwordEncoder());
 
