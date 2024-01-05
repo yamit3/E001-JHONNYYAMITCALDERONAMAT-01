@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    '[com.bp.cbe]': INFO
+    
+spring:
+  datasource:
+    url: jdbc:h2:mem:junit-testdb;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: sa
+  jpa:
+    properties:
+      hibernet:
+        dialect: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      schema-locations: classpath:script.sql
+
+url:
+  courses: 'http://localhost:8076/courses'
+  users: 'http://localhost:8076/users'

@@ -1,0 +1,100 @@
+[
+
+  {
+    "id": 1,
+    "identificationNumber": "ID-659633",
+    "name": "Chris",
+    "lastName": "James",
+    "phoneNumber": 579855222,
+    "status": "ACT"
+  },
+  {
+    "id": 2,
+    "identificationNumber": "ID-569365",
+    "name": "Lex",
+    "lastName": "Helms",
+    "phoneNumber": 98966522,
+    "status": "ACT"
+  },
+  {
+    "id": 3,
+    "identificationNumber": "ID-96365896",
+    "name": "Patrick",
+    "lastName": "Manor",
+    "phoneNumber": 85326542,
+    "status": "ACT"
+  },
+  {
+    "id": 4,
+    "identificationNumber": "ID-1798632",
+    "name": "Oliver",
+    "lastName": "Atom",
+    "phoneNumber": 7425635,
+    "status": "ACT"
+  },
+  {
+    "id": 5,
+    "identificationNumber": "ID-567890",
+    "name": "Peter",
+    "lastName": "Gene",
+    "phoneNumber": 47652232,
+    "status": "ACT"
+  },
+  {
+    "id": 6,
+    "identificationNumber": "ID-7725632",
+    "name": "Bruno",
+    "lastName": "Yasel",
+    "phoneNumber": 90215369,
+    "status": "ACT"
+  },
+  {
+    "id": 7,
+    "identificationNumber": "ID-5623125",
+    "name": "Michael",
+    "lastName": "Jackson",
+    "phoneNumber": 80289532,
+    "status": "ACT"
+  },
+  {
+    "id": 8,
+    "identificationNumber": "ID-69502156",
+    "name": "Luigi",
+    "lastName": "Martineli",
+    "phoneNumber": 401256895,
+    "status": "ACT"
+  },
+  {
+    "id": 9,
+    "identificationNumber": "ID-2753201",
+    "name": "Marck",
+    "lastName": "Robson",
+    "phoneNumber": 632512352,
+    "status": "ACT"
+  },
+  {
+    "id": 10,
+    "identificationNumber": "ID-5789562",
+    "name": "Piero",
+    "lastName": "Gomez",
+    "phoneNumber": 114569852,
+    "status": "ACT"
+  },
+  {
+    "id": 11,
+    "identificationNumber": "ID-85232011",
+    "name": "Joseph",
+    "lastName": "Rochi",
+    "phoneNumber": 5599632,
+    "status": "ACT"
+  },
+  {
+    "id": 12,
+    "identificationNumber": "ID-40128956",
+    "name": "Sagmor",
+    "lastName": "Saga",
+    "phoneNumber": 935685210,
+    "status": "ACT"
+  }
+
+]

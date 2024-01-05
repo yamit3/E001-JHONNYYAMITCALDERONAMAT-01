@@ -1,0 +1,84 @@
+[
+
+  {
+    "code": "CR-001",
+    "name": "Software Engineering",
+    "description": "Software Engineering",
+    "price": 10.60,
+    "status": "ACT",
+    "default": true
+  },
+  {
+    "code": "CR-002",
+    "name": "Java Language",
+    "description": "Java Language",
+    "price": 200.96,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-003",
+    "name": "PostgreSQL",
+    "description": "PostgreSQL DB",
+    "price": 150.96,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-004",
+    "name": "React",
+    "description": "React",
+    "price": 220.88,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-005",
+    "name": "Angular",
+    "description": "Angular",
+    "price": 250.12,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-006",
+    "name": "Net Core",
+    "description": "Net Core",
+    "price": 220.50,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-007",
+    "name": "Redis",
+    "description": "Redis",
+    "price": 100.25,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-008",
+    "name": "WebFlux",
+    "description": "WebFlux",
+    "price": 352.98,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-009",
+    "name": "Spring Boot",
+    "description": "Spring Boot",
+    "price": 205.23,
+    "status": "ACT",
+    "default": false
+  },
+  {
+    "code": "CR-010",
+    "name": "Chat GPT",
+    "description": "Chat GPT",
+    "price": 362.79,
+    "status": "ACT",
+    "default": false
+  }
+
+]
