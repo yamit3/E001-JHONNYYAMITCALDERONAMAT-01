@@ -1,5 +1,6 @@
 package com.pichincha.cbe.service.impl;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -11,7 +12,7 @@ public class UserServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        if(username == null || username.isBlank()){
+        if (StringUtils.isBlank(username)) {
             throw new UsernameNotFoundException("Invalid user");
         }
 
